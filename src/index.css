@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+/* Base typography and smooth scrolling defaults for Booksy-styled UI */
+@layer base {
+html {
+scroll-behavior: smooth;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
+
+body {
+background-color: #F8F9FA;
+color: #151718;
+margin: 0;
+}
+}
